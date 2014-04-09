@@ -8,11 +8,28 @@
 
 #import "Datestore.h"
 
+@interface Datestore ()
+@property (strong, nonatomic) NSArray *guests;
+
+@end
 @implementation Datestore
 
 @synthesize managedObjectContext = _managedObjectContext;
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
+
+# pragma mark- Singleton
+
++ (instancetype)sharedGuestsDataStore {
+    static Datestore *_sharedGuestsDataStore = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        _sharedGuestsDataStore = [[Datestore alloc] init];
+    });
+    
+    return _sharedGuestsDataStore;
+}
+
 
 - (NSManagedObjectContext *)managedObjectContext
 {
@@ -104,6 +121,40 @@
     }
 }
 
+#pragma mark - CRUD Guest Methods
+-(void)fetchGuests
+{
+    NSFetchRequest *guestFetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"Guest"];
+    
+    self.guests = [self.managedObjectContext executeFetchRequest:guestFetchRequest error:nil];
+}
 
+- (NSInteger)numOfGuests
+{
+    return [self.guests count];
+}
 
+- (Guest *)getGuestAtIndex:(NSInteger)index
+{
+    return self.guests[index];
+}
+- (Guest *)newGuest
+{
+    Guest *blankGuest = [NSEntityDescription insertNewObjectForEntityForName:@"Guest" inManagedObjectContext:self.managedObjectContext];
+    return blankGuest;
+}
+# pragma mark- starter data
+- (void) starterData
+{
+    NSFetchRequest *sectionFetch = [NSFetchRequest fetchRequestWithEntityName:@"Guest"];
+    
+    if ([[self.managedObjectContext executeFetchRequest:sectionFetch error:nil] count] == 0)
+        
+    {
+        
+       
+        
+    }
+
+}
 @end
