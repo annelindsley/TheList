@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Guest+methods.h"
 
 @interface Datestore : NSObject
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
@@ -15,6 +16,14 @@
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
+
++ (instancetype) sharedGuestsDataStore;
+
+- (void)fetchGuests;
+- (NSInteger)numOfGuests;
+- (Guest *)getGuestAtIndex:(NSInteger)index;
+- (Guest *)newGuest;
+
 
 
 @end

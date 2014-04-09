@@ -8,16 +8,24 @@
 
 #import "FISAppDelegate.h"
 #import "Datestore.h"
+#import "Guest+methods.h"
+
 
 @implementation FISAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+
+
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    Datestore *dataStore = [Datestore sharedGuestsDataStore];
+    Guest *bree= [Guest guestWithAddedBy:@"Anne" Company:@"PR" Email:nil Facebook:nil Instagram:nil JobTitle:nil LinkedIn:nil Name:@"Bree Sutton" Notes:@"Lizzie's friend, comp drinks" NumberInParty:4 PhoneNumber:nil PreciousPerson:@"YES" Twitter:nil TypeOfAccess:@"VIP" inContext:dataStore.managedObjectContext];
+    Guest *erica = [Guest guestWithAddedBy:@"Anne" Company:nil Email:nil Facebook:nil Instagram:nil JobTitle:nil LinkedIn:nil Name:@"Erica Edmond" Notes:nil NumberInParty:nil PhoneNumber:nil PreciousPerson:@"NO" Twitter:nil TypeOfAccess:nil inContext:dataStore.managedObjectContext];
+    
+    
+    
+    
+    
     return YES;
 }
 
@@ -46,7 +54,7 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Saves changes in the application's managed object context before the application terminates.
-    [self saveContext];
+    //[self saveContext];
     
 }
 
