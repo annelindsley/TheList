@@ -2,7 +2,7 @@
 //  Message.h
 //  TheList
 //
-//  Created by Anne Lindsley on 4/8/14.
+//  Created by Anne Lindsley on 4/9/14.
 //  Copyright (c) 2014 Learning FIS. All rights reserved.
 //
 
@@ -15,8 +15,8 @@
 
 @property (nonatomic, retain) NSString * content;
 @property (nonatomic, retain) NSString * response;
-@property (nonatomic, retain) List *list;
 @property (nonatomic, retain) NSSet *admins;
+@property (nonatomic, retain) List *list;
 @end
 
 @interface Message (CoreDataGeneratedAccessors)

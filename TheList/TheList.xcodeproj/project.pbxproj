@@ -31,10 +31,10 @@
 		03F7D78018F4AB1A0019D080 /* GuestListTableViewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7D77F18F4AB1A0019D080 /* GuestListTableViewTableViewController.m */; };
 		03F7D78318F4AB720019D080 /* NotificationHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7D78218F4AB720019D080 /* NotificationHistoryViewController.m */; };
 		03F7D78618F4AB8C0019D080 /* CountTicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7D78518F4AB8C0019D080 /* CountTicker.m */; };
-		03F7D78918F4C7760019D080 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7D78818F4C7760019D080 /* Message.m */; };
-		03F7D78C18F4C7770019D080 /* Guest.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7D78B18F4C7770019D080 /* Guest.m */; };
-		03F7D78F18F4C7770019D080 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7D78E18F4C7770019D080 /* List.m */; };
-		03F7D79218F4C7770019D080 /* Admin.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7D79118F4C7770019D080 /* Admin.m */; };
+		03F7D7A118F58D3C0019D080 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7D7A018F58D3C0019D080 /* Message.m */; };
+		03F7D7A418F58D3D0019D080 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7D7A318F58D3D0019D080 /* List.m */; };
+		03F7D7A718F58D3D0019D080 /* Guest.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7D7A618F58D3D0019D080 /* Guest.m */; };
+		03F7D7AA18F58D3D0019D080 /* Admin.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F7D7A918F58D3D0019D080 /* Admin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,14 +83,14 @@
 		03F7D78218F4AB720019D080 /* NotificationHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationHistoryViewController.m; sourceTree = "<group>"; };
 		03F7D78418F4AB8C0019D080 /* CountTicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountTicker.h; sourceTree = "<group>"; };
 		03F7D78518F4AB8C0019D080 /* CountTicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountTicker.m; sourceTree = "<group>"; };
-		03F7D78718F4C7760019D080 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
-		03F7D78818F4C7760019D080 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
-		03F7D78A18F4C7770019D080 /* Guest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Guest.h; sourceTree = "<group>"; };
-		03F7D78B18F4C7770019D080 /* Guest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Guest.m; sourceTree = "<group>"; };
-		03F7D78D18F4C7770019D080 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
-		03F7D78E18F4C7770019D080 /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
-		03F7D79018F4C7770019D080 /* Admin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Admin.h; sourceTree = "<group>"; };
-		03F7D79118F4C7770019D080 /* Admin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Admin.m; sourceTree = "<group>"; };
+		03F7D79F18F58D3C0019D080 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		03F7D7A018F58D3C0019D080 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		03F7D7A218F58D3D0019D080 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		03F7D7A318F58D3D0019D080 /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
+		03F7D7A518F58D3D0019D080 /* Guest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Guest.h; sourceTree = "<group>"; };
+		03F7D7A618F58D3D0019D080 /* Guest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Guest.m; sourceTree = "<group>"; };
+		03F7D7A818F58D3D0019D080 /* Admin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Admin.h; sourceTree = "<group>"; };
+		03F7D7A918F58D3D0019D080 /* Admin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Admin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,14 +197,14 @@
 			isa = PBXGroup;
 			children = (
 				03F7D70A18F1BDF40019D080 /* TheList.xcdatamodeld */,
-				03F7D78A18F4C7770019D080 /* Guest.h */,
-				03F7D78B18F4C7770019D080 /* Guest.m */,
-				03F7D79018F4C7770019D080 /* Admin.h */,
-				03F7D79118F4C7770019D080 /* Admin.m */,
-				03F7D78D18F4C7770019D080 /* List.h */,
-				03F7D78E18F4C7770019D080 /* List.m */,
-				03F7D78718F4C7760019D080 /* Message.h */,
-				03F7D78818F4C7760019D080 /* Message.m */,
+				03F7D7A818F58D3D0019D080 /* Admin.h */,
+				03F7D7A918F58D3D0019D080 /* Admin.m */,
+				03F7D7A518F58D3D0019D080 /* Guest.h */,
+				03F7D7A618F58D3D0019D080 /* Guest.m */,
+				03F7D7A218F58D3D0019D080 /* List.h */,
+				03F7D7A318F58D3D0019D080 /* List.m */,
+				03F7D79F18F58D3C0019D080 /* Message.h */,
+				03F7D7A018F58D3C0019D080 /* Message.m */,
 				03F7D73718F1D3CF0019D080 /* Guest+methods.h */,
 				03F7D73818F1D3CF0019D080 /* Guest+methods.m */,
 				03F7D73A18F1D3DD0019D080 /* Admin+methods.h */,
@@ -337,15 +337,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03F7D79218F4C7770019D080 /* Admin.m in Sources */,
-				03F7D78F18F4C7770019D080 /* List.m in Sources */,
+				03F7D7AA18F58D3D0019D080 /* Admin.m in Sources */,
+				03F7D7A418F58D3D0019D080 /* List.m in Sources */,
 				03F7D73918F1D3CF0019D080 /* Guest+methods.m in Sources */,
 				03F7D70518F1BDF30019D080 /* main.m in Sources */,
 				03F7D74218F1D3FF0019D080 /* Message+methods.m in Sources */,
 				03F7D70918F1BDF40019D080 /* FISAppDelegate.m in Sources */,
-				03F7D78C18F4C7770019D080 /* Guest.m in Sources */,
+				03F7D7A718F58D3D0019D080 /* Guest.m in Sources */,
+				03F7D7A118F58D3C0019D080 /* Message.m in Sources */,
 				03F7D73C18F1D3DD0019D080 /* Admin+methods.m in Sources */,
-				03F7D78918F4C7760019D080 /* Message.m in Sources */,
 				03F7D73F18F1D3F00019D080 /* List+methods.m in Sources */,
 				03F7D78018F4AB1A0019D080 /* GuestListTableViewTableViewController.m in Sources */,
 				03F7D78318F4AB720019D080 /* NotificationHistoryViewController.m in Sources */,
@@ -548,6 +548,7 @@
 				03F7D72718F1BDF40019D080 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03F7D72818F1BDF40019D080 /* Build configuration list for PBXNativeTarget "TheListTests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +557,7 @@
 				03F7D72A18F1BDF40019D080 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

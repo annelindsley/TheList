@@ -22,7 +22,7 @@
         <attribute name="linkedIn" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="numberInParty" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="numberInParty" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="preciousPerson" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="twitter" optional="YES" attributeType="String" syncable="YES"/>
@@ -43,9 +43,9 @@
         <relationship name="list" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="List" inverseName="messages" inverseEntity="List" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Guest" positionX="-164" positionY="189" width="128" height="283"/>
-        <element name="Message" positionX="-101" positionY="9" width="128" height="103"/>
-        <element name="List" positionX="-522" positionY="368" width="128" height="118"/>
         <element name="Admin" positionX="-540" positionY="-27" width="128" height="178"/>
+        <element name="Guest" positionX="-164" positionY="189" width="128" height="285"/>
+        <element name="List" positionX="-522" positionY="368" width="128" height="118"/>
+        <element name="Message" positionX="-101" positionY="9" width="128" height="103"/>
     </elements>
 </model>

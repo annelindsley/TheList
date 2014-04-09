@@ -2,7 +2,7 @@
 //  Guest.m
 //  TheList
 //
-//  Created by Anne Lindsley on 4/8/14.
+//  Created by Anne Lindsley on 4/9/14.
 //  Copyright (c) 2014 Learning FIS. All rights reserved.
 //
 
@@ -12,21 +12,21 @@
 
 @implementation Guest
 
-@dynamic name;
-@dynamic numberInParty;
-@dynamic dateAdded;
 @dynamic addedBy;
-@dynamic email;
-@dynamic phoneNumber;
 @dynamic company;
-@dynamic typeOfAccess;
-@dynamic preciousPerson;
-@dynamic notes;
-@dynamic instagram;
-@dynamic twitter;
-@dynamic linkedIn;
+@dynamic dateAdded;
+@dynamic email;
 @dynamic facebook;
+@dynamic instagram;
 @dynamic jobTitle;
+@dynamic linkedIn;
+@dynamic name;
+@dynamic notes;
+@dynamic numberInParty;
+@dynamic phoneNumber;
+@dynamic preciousPerson;
+@dynamic twitter;
+@dynamic typeOfAccess;
 @dynamic list;
 
 @end

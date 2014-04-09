@@ -2,7 +2,7 @@
 //  List.m
 //  TheList
 //
-//  Created by Anne Lindsley on 4/8/14.
+//  Created by Anne Lindsley on 4/9/14.
 //  Copyright (c) 2014 Learning FIS. All rights reserved.
 //
 
@@ -14,8 +14,8 @@
 
 @implementation List
 
-@dynamic event;
 @dynamic date;
+@dynamic event;
 @dynamic admins;
 @dynamic guests;
 @dynamic messages;

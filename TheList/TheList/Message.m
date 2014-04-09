@@ -2,7 +2,7 @@
 //  Message.m
 //  TheList
 //
-//  Created by Anne Lindsley on 4/8/14.
+//  Created by Anne Lindsley on 4/9/14.
 //  Copyright (c) 2014 Learning FIS. All rights reserved.
 //
 
@@ -15,7 +15,7 @@
 
 @dynamic content;
 @dynamic response;
-@dynamic list;
 @dynamic admins;
+@dynamic list;
 
 @end

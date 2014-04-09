@@ -69,6 +69,7 @@
     
     Guest *newGuest = [self.dataStore getGuestAtIndex:indexPath.row];
     cell.textLabel.text = newGuest.name;
+    cell.detailTextLabel.text = newGuest.numberInParty;
 
     
     return cell;

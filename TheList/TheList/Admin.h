@@ -2,7 +2,7 @@
 //  Admin.h
 //  TheList
 //
-//  Created by Anne Lindsley on 4/8/14.
+//  Created by Anne Lindsley on 4/9/14.
 //  Copyright (c) 2014 Learning FIS. All rights reserved.
 //
 
@@ -13,13 +13,13 @@
 
 @interface Admin : NSManagedObject
 
-@property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSString * approvalLevel;
+@property (nonatomic, retain) NSString * company;
+@property (nonatomic, retain) NSString * emailAddress;
+@property (nonatomic, retain) NSString * jobTitle;
+@property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSString * phoneNumber;
 @property (nonatomic, retain) NSString * userID;
-@property (nonatomic, retain) NSString * emailAddress;
-@property (nonatomic, retain) NSString * company;
-@property (nonatomic, retain) NSString * jobTitle;
 @property (nonatomic, retain) NSSet *lists;
 @property (nonatomic, retain) NSSet *messages;
 @end

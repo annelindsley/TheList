@@ -2,7 +2,7 @@
 //  List.h
 //  TheList
 //
-//  Created by Anne Lindsley on 4/8/14.
+//  Created by Anne Lindsley on 4/9/14.
 //  Copyright (c) 2014 Learning FIS. All rights reserved.
 //
 
@@ -13,8 +13,8 @@
 
 @interface List : NSManagedObject
 
-@property (nonatomic, retain) NSString * event;
 @property (nonatomic, retain) NSDate * date;
+@property (nonatomic, retain) NSString * event;
 @property (nonatomic, retain) NSSet *admins;
 @property (nonatomic, retain) NSSet *guests;
 @property (nonatomic, retain) NSSet *messages;

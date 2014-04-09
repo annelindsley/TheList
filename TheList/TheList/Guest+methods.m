@@ -27,7 +27,7 @@
                         LinkedIn: (NSString *) linkedIn
                             Name: (NSString *) name
                            Notes: (NSString *) notes
-                   NumberInParty: (NSInteger) numberInParty
+                   NumberInParty: (NSString *) numberInParty
                      PhoneNumber: (NSString *) phoneNumber
                   PreciousPerson: (NSString *) preciousPerson
                          Twitter: (NSString *) twitter
@@ -49,7 +49,7 @@
         newGuest.linkedIn = linkedIn;
         newGuest.name = name;
         newGuest.notes = notes;
-        newGuest.numberInParty = [NSNumber numberWithInteger:numberInParty];
+        newGuest.numberInParty = numberInParty;
         newGuest.phoneNumber = phoneNumber;
         newGuest.preciousPerson= preciousPerson;
         newGuest.twitter = twitter;

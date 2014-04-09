@@ -2,7 +2,7 @@
 //  Admin.m
 //  TheList
 //
-//  Created by Anne Lindsley on 4/8/14.
+//  Created by Anne Lindsley on 4/9/14.
 //  Copyright (c) 2014 Learning FIS. All rights reserved.
 //
 
@@ -13,13 +13,13 @@
 
 @implementation Admin
 
-@dynamic name;
 @dynamic approvalLevel;
+@dynamic company;
+@dynamic emailAddress;
+@dynamic jobTitle;
+@dynamic name;
 @dynamic phoneNumber;
 @dynamic userID;
-@dynamic emailAddress;
-@dynamic company;
-@dynamic jobTitle;
 @dynamic lists;
 @dynamic messages;
 

@@ -20,7 +20,7 @@
                         LinkedIn: (NSString *) linkedIn
                             Name: (NSString *) name
                            Notes: (NSString *) notes
-                   NumberInParty: (NSInteger) numberInParty
+                   NumberInParty: (NSString *) numberInParty
                      PhoneNumber: (NSString *) phoneNumber
                   PreciousPerson: (NSString *) preciousPerson
                          Twitter: (NSString *) twitter
